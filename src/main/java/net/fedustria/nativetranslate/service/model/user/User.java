@@ -58,6 +58,11 @@ public class User {
     private String role;
 
     /**
+     * The avatar of the user
+     */
+    private String avatar;
+
+    /**
      * The country of the user.
      */
     private String country;
