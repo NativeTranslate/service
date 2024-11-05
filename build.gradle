@@ -26,6 +26,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-hibernate-orm'
     implementation 'io.quarkus:quarkus-elytron-security'
     implementation 'io.quarkus:quarkus-scheduler'
+    implementation 'io.quarkus:quarkus-mongodb-panache'
 
     implementation 'org.apache.commons:commons-lang3:3.9'
 

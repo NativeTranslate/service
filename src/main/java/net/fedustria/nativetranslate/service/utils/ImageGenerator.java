@@ -24,12 +24,13 @@ import static java.awt.RenderingHints.*;
  * Utility class for generating images with various graphical effects.
  */
 public class ImageGenerator {
-    private static final Logger LOG        = LoggerFactory.getLogger(ImageGenerator.class);
-    private static final Random rand       = new Random();
-    private static final int    shadowSize = 5;
-    private static final int    width      = 200;
-    private static final int    height     = 200;
-    private static       Font   font;
+
+    private static final Logger LOG = LoggerFactory.getLogger(ImageGenerator.class);
+    private static final Random rand = new Random();
+    private static final int shadowSize = 5;
+    private static final int width = 200;
+    private static final int height = 200;
+    private static Font font;
 
     static {
         try {
@@ -39,7 +40,7 @@ public class ImageGenerator {
             font = new Font("Arial", Font.PLAIN, 115);
         }
     }
-
+    
     /**
      * Generates a random pastel color.
      *
