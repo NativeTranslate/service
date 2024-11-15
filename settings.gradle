@@ -9,3 +9,5 @@ pluginManagement {
     }
 }
 rootProject.name = 'service'
+include 'net.fedustria.nativetranslate.model'
+
