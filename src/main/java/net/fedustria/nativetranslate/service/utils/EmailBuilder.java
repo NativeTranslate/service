@@ -19,15 +19,15 @@ import java.util.Map;
 public class EmailBuilder {
     private static final Map<String, String> templateContents = new HashMap<>();
     @Getter
-    private final String              receiver;
+    private final String receiver;
     @Getter
-    private final String              fileName;
+    private final String fileName;
     @Getter
-    private final String              subject;
+    private final String subject;
     @Getter
     private final Map<String, String> replacements;
     @Inject
-    private final Mailer              mailer;
+    private final Mailer mailer;
 
     public EmailBuilder(final String receiver, final EMailTemplate template, final String subject, final Map<String, String> replacements, final Mailer mailer) {
         this.receiver = receiver;
